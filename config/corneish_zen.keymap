@@ -30,14 +30,14 @@
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
-// |  `   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0             | DEL  |
-// | CAPS |  -  |  =  |  [  |  ]  |  \  |   |  /  |  ;  |  '  |     |  Brightness DN |  Brightness UP  |
-// | SHFT |  _  |  +  |  {  |  }  | "|" |   | LFT | DWN | UP  | RGT |  VOL DN        |  VOL UP |
-//                    | ALT | GUI | SPC |   | ENT |     | CTL |
+// |  `   |  1  |  2  |  3  |  4  |  5  |   |  6   |  7  |  8  |  9  |  0             | DEL  |
+// | CAPS |  -  |  =  |  [  |  ]  |  \  |   |  /   |  ;  |  '  |     |  Brightness DN |  Brightness UP  |
+// | SHFT |  _  |  +  |  {  |  }  | "|" |   | V_DN | DWN | LFT | DWN |  UP            |  VOL UP |
+//                    | ALT | GUI | SPC |   | ENT  |     | CTL |
                         bindings = <
    &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &kp CAPS   &kp MINUS    &kp EQUAL    &kp LBKT     &kp RBKT     &kp BSLH       &kp FSLH &kp SEMI &kp SQT &trans &kp C_BRI_DN &kp C_BRI_UP
-   &kp LSHFT  &kp UNDER    &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE       &kp LEFT &kp DOWN &kp UP  &kp RIGHT &kp K_VOL_DN &kp K_VOL_UP
+   &kp LSHFT  &kp UNDER    &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE       &kp K_VOL_DN  &kp LEFT &kp DOWN &kp UP  &kp RIGHT  &kp K_VOL_UP
                           	        &kp LALT     &kp LGUI       &kp SPACE      &kp RET  &trans   &kp RCTRL
                         >;
                 };
