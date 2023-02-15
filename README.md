@@ -1,3 +1,5 @@
+# Note to self: Don't use this anymore. Use https://github.com/Aztriltus/zmk-config instead
+
 # Corne-ish Zen V2 Custom Configuration
 
 ![Corne-ish Zen Logo](img/Zen_R3_sticker.png)
